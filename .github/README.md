@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-kendra`](https://www.npmjs.com/package/@aws-sdk/client-kendra/v/3.421.0).
+[`@aws-sdk/client-kendra`](https://www.npmjs.com/package/@aws-sdk/client-kendra/v/3.423.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kendra@3.421.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kendra@3.423.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-9XSHlMnL7wcjCAA9o85zCoIJNV1+QOcMM+BlGmvdDgYEMVhXD8C1+k63bp/2Zy/P
+sha384-yab3Y1+QT8ga7jv404yQ3xJ5XFi7qNRMgPDknoPt0Vm+WgPnr2ABStZDOzqpO/k4
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-kendra": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kendra@3.421.0/index.min.mjs"
+            "@aws-sdk/client-kendra": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kendra@3.423.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kendra@3.421.0/index.min.mjs": "sha384-9XSHlMnL7wcjCAA9o85zCoIJNV1+QOcMM+BlGmvdDgYEMVhXD8C1+k63bp/2Zy/P"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kendra@3.423.0/index.min.mjs": "sha384-yab3Y1+QT8ga7jv404yQ3xJ5XFi7qNRMgPDknoPt0Vm+WgPnr2ABStZDOzqpO/k4"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-kendra": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kendra@3.421.0/index.min.mjs"
+                        "@aws-sdk/client-kendra": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kendra@3.423.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kendra@3.421.0/index.min.mjs": "sha384-9XSHlMnL7wcjCAA9o85zCoIJNV1+QOcMM+BlGmvdDgYEMVhXD8C1+k63bp/2Zy/P"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kendra@3.423.0/index.min.mjs": "sha384-yab3Y1+QT8ga7jv404yQ3xJ5XFi7qNRMgPDknoPt0Vm+WgPnr2ABStZDOzqpO/k4"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.421.0`)
+* Always pin to a specific version (`@3.423.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-kendra/blob/refs/tags/3.421.0/LICENSE
+https://github.com/cloud-sdk-builds/client-kendra/blob/refs/tags/3.423.0/LICENSE
 ```
 
 ---
